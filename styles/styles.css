@@ -1,0 +1,241 @@
+*,html, body {
+    box-sizing: border-box;
+    
+}
+
+body, h1, h2, h3, h4, h5, h6, p, ol, ul {
+    margin: 0;
+    padding: 0;
+    font-weight: lighter;
+}
+
+body {
+    font-family: "Helvetica", sans-serif;
+    background-color: #f2f4fc;
+}
+
+.barra-nav{
+    display: flex;
+    background-color: #f2f4fc;
+    width: 100%;
+    height: 10vh;
+    position: static;
+    align-items: flex-end;
+    
+    
+}
+.barra-nav img{
+    width: 60px;
+}
+.box1{
+    width: 25%;
+    text-align: left;
+    margin-left: 10%;
+}
+.box2 {
+    text-align: center;
+    width: 100%;
+}
+.box2 li{
+    font-size: 1rem;
+    display: inline;
+    margin: 10px;
+}
+.box2 li a{
+    text-decoration: none;
+    color: #6b708d;
+}
+.box3{
+    width: 25%;
+    text-align: right;
+    margin-right: 10vw;
+}
+#miBoton {
+    background-color: #072ac8;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 14px;
+    border-radius: 0px;
+    padding: 7px 14px;
+
+}
+#miBoton2 {
+    background-color: transparent; 
+    color: #6b708d; 
+    border: none;
+}
+.hero-section{
+    margin-top: 8vh;
+    display: flex;
+    width: 100%;
+    height: 50vh;
+    
+}
+.hero-box1{
+    width: 50%;
+    margin-left: 10vw;
+    
+    
+}
+.hero-box2{
+    
+    width: 50%;
+    text-align: center;
+}
+.hero-box2 img{
+    width: 320px;
+}
+.hero-box1 h1 {
+    
+    margin-top: 5rem;
+}
+.hero-box1 h4 {
+    color: #6b708d;
+    margin-top: 3rem;
+}
+.hero-box1 button{
+    margin-top: 3rem;
+    margin-right: 0.7rem;
+}
+.client-section{
+    width: 100%;
+    margin-top: 2rem;
+    filter: grayscale(100%);
+    display: flex;
+    justify-content: center;
+}
+.client-section img{
+    padding: 2rem;
+    width: 150px;
+}
+.separador{
+    
+    margin-top: 6rem;
+    margin-bottom: 3rem;
+    margin-left: 10%;
+}
+.projects-section{
+
+    position: static;
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    
+        
+        
+}
+.projects-section img{
+        width: 100%;
+        align-items: center;
+}
+.projects-box{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-between;
+    width: 22%;
+    height: 20rem;
+    padding-bottom: 10rem;
+    box-shadow: 20px 0px 10px 0px rgba(0, 0, 0, 0.1);
+    margin: 2rem;
+    border-color: 2px solid grey ;
+    
+    
+} 
+.projects-box h3 {
+    margin-top: 1rem;
+    margin-left: 1rem;
+    font-size: medium;
+    
+}
+.projects-box h4 {
+    color: #6b708d;
+    font-size: small;
+    margin-top: 0.6rem;
+    margin-left: 1rem;
+    
+}
+.projects-box a {
+    margin-top: 1.8rem;
+    font-size: small;
+    margin-left: 1rem;
+    text-decoration: none;
+    color: #072ac8;
+}
+.testimonial-section{
+    width: 100%;
+}
+.bg-testimonial{
+    margin-top: 8rem;
+    margin-bottom: 8rem;
+    background-color: #292e47;
+    width: 100%;
+    height: 65vh;
+    border-right: 7vw solid #f2f4fc;
+    border-left: 7vw solid #f2f4fc;
+    
+}
+
+.services-section{
+
+    position: static;
+    display: flex;
+    width: 100%;
+    justify-content: center;
+
+}
+.services-section img{
+        width: 20%;
+        align-items: center;
+}
+.cta-section {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.cta-section h3 {
+    font-size: 2rem;
+    text-align: center;
+}
+
+.cta-section h4 {
+    font-size: 1.2rem;
+    margin-bottom: 1rem;
+}
+.cta-section input {
+    padding: 1.2rem;
+}
+
+.bg-cta {
+    margin-top: 8rem;
+    width: 100%;
+    height: 75vh;
+    border-right: 7vw solid #f2f4fc;
+    border-left: 7vw solid #f2f4fc;
+    background-color: #ffc600;
+}
+
+.subscribe .input-container {
+    position: relative;
+    display: inline-block;
+}
+.subscribe .input {
+    padding-left: 50px;
+    font-size: 16px;
+}
+.subscribe .input-image {
+    position: absolute;
+    left: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 20px;
+}
+.bg-footer{
+    margin-top: 8rem;
+    width: 100%;
+    height: 20vh;
+    background-color: #f2f4fc;
+}
