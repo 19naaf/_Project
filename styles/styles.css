@@ -79,12 +79,25 @@ body {
     
 }
 .hero-box2{
-    
+
     width: 50%;
     text-align: center;
+    position: relative;
 }
-.hero-box2 img{
+.hero-box2 .header-img1{
     width: 320px;
+}
+.hero-box2 .header-img2{
+    width: 200px;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.hero-box2 .header-img3{
+    width: 180px;
+    position: absolute;
+    top: 14rem;
+    left: 16rem;
 }
 .hero-box1 h1 {
     
@@ -140,6 +153,7 @@ body {
     box-shadow: 20px 0px 10px 0px rgba(0, 0, 0, 0.1);
     margin: 2rem;
     border-color: 2px solid grey ;
+    background-color: white;
     
     
 } 
@@ -165,15 +179,23 @@ body {
 }
 .testimonial-section{
     width: 100%;
+    
+
+
 }
 .bg-testimonial{
-    margin-top: 8rem;
+    margin-top: 5rem;
     margin-bottom: 8rem;
     background-color: #292e47;
     width: 100%;
-    height: 65vh;
+    height: 50vh;
     border-right: 7vw solid #f2f4fc;
     border-left: 7vw solid #f2f4fc;
+    background-image: url(/_Project/resources/testimonial-section/orbit.png);
+    background-size: contain;
+    background-position: center center;
+    position: relative;
+    
     
 }
 
@@ -210,9 +232,9 @@ body {
 }
 
 .bg-cta {
-    margin-top: 8rem;
+    margin-top: 5rem;
     width: 100%;
-    height: 75vh;
+    height: 50vh;
     border-right: 7vw solid #f2f4fc;
     border-left: 7vw solid #f2f4fc;
     background-color: #ffc600;
@@ -234,8 +256,191 @@ body {
     width: 20px;
 }
 .bg-footer{
-    margin-top: 8rem;
+    display: flex;
+    margin-top: 4rem;
     width: 100%;
     height: 20vh;
     background-color: #f2f4fc;
+    justify-content: space-between;
 }
+.footer-box1{
+    width: 20%;
+    text-align: left;
+    margin-left: 10%;
+    
+    
+}
+.footer-box1 img{
+    width: 80px;
+    margin-bottom: 1rem;
+    
+}
+.bg-footer .footer-box1 p {
+    color: #072ac8;
+    font-size: .8rem;
+}
+.footer-box2{
+    display: flex;
+    width: 50%;
+    margin-right: 3rem;
+}
+.footer-box2 ul li{
+    text-decoration: none;
+    list-style-type: none;
+    padding: 0.6rem;
+    font-size: .8rem;
+}
+.footer-box2 a{
+    text-decoration: none;
+    color: #072ac8;
+    
+}
+.contenedor-list{
+    width: 50%;
+    display: flex;
+}
+.testimonial-emoji1{
+    width: 140px;
+    position: absolute;
+    top: 0;
+    left: 0rem;
+    margin-left: 5%;
+}
+.testimonial-emoji2{
+    width: 140px;
+    position: absolute;
+    top: 0rem;
+    left: 75%;
+}
+.h2-testimonial{
+    color: #f2f4fc;
+    text-align: center;
+    padding-top: 5rem;
+}
+.h4-testimonial{
+    color: #ffc600;
+    text-align: center;
+    margin-top: 3rem;
+    margin-left: 11rem;
+    margin-right: 11rem;
+
+}
+.testimonial-emoji3{
+    width: 140px;
+    position: absolute;
+    top: 60%;
+    left: 0rem;
+    margin-left: 5%;
+}
+.testimonial-girl{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 2%;
+}
+.testimonial-img{
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    text-align: center;
+}
+.nombre{
+    color: #a2d6f9;
+
+}
+.booking{
+    color: #f2f4fc;
+}
+.testimonial-info{
+    text-align: left;
+}
+.testimonial-emoji4{
+
+        width: 140px;
+        position: absolute;
+        top: 60%;
+        left: 75%;
+}
+.projects-box2{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-between;
+    width: 22%;
+    height: 15rem;
+    padding-bottom: 10rem;
+    box-shadow: 20px 0px 10px 0px rgba(0, 0, 0, 0.1);
+    margin: 2rem;
+    border-color: 2px solid grey ;
+    background-color: white;
+    
+}
+.projects-box2 h3 {
+    margin-top: 1rem;
+    margin-left: 1rem;
+    font-size: medium;
+    
+}
+.projects-box2 h4 {
+    color: #6b708d;
+    font-size: small;
+    margin-top: 0.6rem;
+    margin-left: 1rem;
+    
+}
+.projects-box2 a {
+    margin-top: 1.8rem;
+    font-size: small;
+    margin-left: 1rem;
+    text-decoration: none;
+    color: #072ac8;
+}
+.services-section img{
+
+width: 100%;
+align-items: center;
+background-color: #d1edff;
+border-radius: 50%;
+padding: 10px;
+margin: 10px;
+width: 40px;
+height: 40px;
+}
+
+
+
+
+
+
+
+
+
+
+
+/* .emoji1 {
+    margin-top: .1rem;
+    width: 130px;
+    height: 130px;
+}
+.emoji2 {
+    margin-top: .1rem;
+    width: 130px;
+    height: 130px;
+}
+.h2testimonial{
+    color: #f2f4fc;
+    margin-top: 5rem;
+}
+.testimonial-box1{
+    display: flex;
+    justify-content: space-evenly;
+}
+.testimonial-box2 h3 {
+    color: #ffc600;
+}
+.testimonial-box2{
+    width: 50%;
+    height: 10%;
+    display: flex;
+} */
