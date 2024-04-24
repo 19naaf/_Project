@@ -1,0 +1,199 @@
+*,html, body {
+    box-sizing: border-box;
+    
+}
+
+body, h1, h2, h3, h4, h5, h6, p, ol, ul {
+    margin: 0;
+    padding: 0;
+    font-weight: lighter;
+}
+
+body {
+    font-family: "Helvetica", sans-serif;
+    background-color: #f2f4fc;
+}
+
+.barra-nav{
+    display: flex;
+    background-color: #f2f4fc;
+    width: 100%;
+    height: 10vh;
+    position: static;
+    align-items: flex-end;
+    
+    
+}
+.barra-nav img{
+    width: 60px;
+}
+.box1{
+    width: 25%;
+    text-align: left;
+    margin-left: 10%;
+}
+.box2 {
+    text-align: center;
+    width: 100%;
+}
+.box2 li{
+    font-size: 1rem;
+    display: inline;
+    margin: 10px;
+}
+.box2 li a{
+    text-decoration: none;
+    color: #6b708d;
+}
+.box3{
+    width: 25%;
+    text-align: right;
+    margin-right: 10vw;
+}
+#miBoton {
+    background-color: #072ac8;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 14px;
+    border-radius: 0px;
+    padding: 7px 14px;
+}
+#miBoton a{
+    color: white;
+    text-decoration: none;
+}
+.formClass{
+    margin: 80px 170px;
+    text-align: left;
+}
+h1{
+    font-size: 40px;
+    font-weight: 700;
+    margin-bottom: 20px;
+    color: #292e47;
+}
+.nameDiv{
+    width: 100%;
+    margin-block-end: 20px;
+}
+label{
+    color: #6b708d;
+}
+#name {
+    width: 99%;
+    border: none;
+    background-color: rgba(107, 112, 141, 0.1);
+    height: 60px;
+    margin-block-start: 10px;
+    padding-left: 10px;
+}
+.errorForm {
+    color: blue;
+    font-size: 14px;
+    font-weight: bold;
+}
+.emailAndPhone {
+    display: flex;
+    width: 100%;
+}
+#email {
+    margin-right: 10px;
+    width: 95%;
+    border: none;
+    background-color: rgba(107, 112, 141, 0.1);
+    height: 60px;
+    margin-block-start: 10px;
+    padding-left: 10px;
+}
+input {
+    background: rgba(107, 112, 141, 0.1);
+}
+.emailAndPhone>div {
+    width: 100%;
+    margin-block-end: 20px;
+}
+
+#phone {
+    width: 98%;
+    border: none;
+    background-color: rgba(107, 112, 141, 0.1);
+    height: 60px;
+    margin-block-start: 10px;
+    padding-left: 10px;
+}
+.messageDiv {
+    width: 100%;
+    height: 200px;
+}
+#message {
+    padding-top: 20px;
+    width: 99%;
+    border: none;
+    background-color: rgba(107, 112, 141, 0.1);
+    margin-block-start: 10px;
+    padding-left: 10px;
+}
+.buttonSubmit {
+    margin-top: 60px;
+}
+#submitForm {
+    width: 100%;
+    height: 60px;
+    border: none;
+    background-color: #072ac8;
+    color: #fff;
+    font-weight: normal;
+}
+#errorSubmit {
+    justify-items: center;
+    font-size: 16px;
+    border-radius: 10px;
+    height: 40px;
+    text-align: center;
+    margin-top: 15px;
+}
+.bg-footer{
+    display: flex;
+    margin-top: 4rem;
+    width: 100%;
+    height: 20vh;
+    background-color: #f2f4fc;
+    justify-content: space-between;
+}
+.footer-box1{
+    width: 20%;
+    text-align: left;
+    margin-left: 10%;
+    
+    
+}
+.footer-box1 img{
+    width: 80px;
+    margin-bottom: 1rem;
+    
+}
+.bg-footer .footer-box1 p {
+    color: #072ac8;
+    font-size: .8rem;
+}
+.footer-box2{
+    display: flex;
+    width: 50%;
+    margin-right: 3rem;
+}
+.footer-box2 ul li{
+    text-decoration: none;
+    list-style-type: none;
+    padding: 0.6rem;
+    font-size: .8rem;
+}
+.footer-box2 a{
+    text-decoration: none;
+    color: #072ac8;
+    
+}
+.contenedor-list{
+    width: 50%;
+    display: flex;
+}

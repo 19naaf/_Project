@@ -58,12 +58,19 @@ body {
     font-size: 14px;
     border-radius: 0px;
     padding: 7px 14px;
-
+}
+#miBoton a{
+    color: white;
+    text-decoration: none;
 }
 #miBoton2 {
     background-color: transparent; 
     color: #6b708d; 
     border: none;
+}
+#miBoton2 a{
+    color: black;
+    text-decoration: none;
 }
 .hero-section{
     margin-top: 8vh;
@@ -407,40 +414,3 @@ margin: 10px;
 width: 40px;
 height: 40px;
 }
-
-
-
-
-
-
-
-
-
-
-
-/* .emoji1 {
-    margin-top: .1rem;
-    width: 130px;
-    height: 130px;
-}
-.emoji2 {
-    margin-top: .1rem;
-    width: 130px;
-    height: 130px;
-}
-.h2testimonial{
-    color: #f2f4fc;
-    margin-top: 5rem;
-}
-.testimonial-box1{
-    display: flex;
-    justify-content: space-evenly;
-}
-.testimonial-box2 h3 {
-    color: #ffc600;
-}
-.testimonial-box2{
-    width: 50%;
-    height: 10%;
-    display: flex;
-} */

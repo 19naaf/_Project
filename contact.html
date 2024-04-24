@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Proyecto</title>
+    <link rel="stylesheet" href="/_Project/styles/styles_contact.css">
+</head>
+<body>
+    <nav class="barra-nav">
+        <div class="box1">
+            <img src="/_Project/resources/logos/circle.svg" alt="logo-barra">
+        </div>
+        <div class="box2">
+        <ul>
+            </a>
+            <li><a href="/_Project/index.html">Home</a></li>
+            <li><a href="/_Project/index.html#projects_ancla">Projects</a></li>
+            <li><a href="/_Project/index.html#services_ancla">Services</a></li>
+        </ul>
+        </div>
+        <div class="box3">
+            <button id="miBoton" class="botonPersonalizado"><a href="/_Project/contact.html">Contact Us</a></button>
+        </div>
+        </nav>
+        <main>
+        <form id="form-container" action="" method="get" class="formClass">
+            <h1>Contact Us</h1>
+            <div class="nameDiv">
+                <label for="name">Full Name</label><br>
+                <input type="text" placeholder="Enter your full name" name="name" id="name" onblur="validateName()"
+                    required>
+                <p id="errorName" hidden class="errorForm">Debes introducir un Nombre (sin caracteres especiales ni numeros)</p>
+            </div>
+            <div class="emailAndPhone">
+                <div>
+                    <label for="email">Email</label><br>
+                    <input type="email" name="email" id="email" placeholder="Enter your email address"
+                        onblur="validateEmail()" required>
+                    <p id="errorEmail" hidden class="errorForm">Debes llenar el campo email (en un formato correcto ejemplo@ejem.com)</p>
+                </div>
+                <div>
+                    <label for="phone">Phone</label><br>
+                    <input type="text" name="phone" id="phone" placeholder="Enter your phone number"
+                        onblur="validatePhone()" required>
+                    <p id="errorPhone" hidden class="errorForm">Debes introducir tu nº de teléfono (solo numeros) </p>
+                </div>
+            </div>
+            <div class="messageDiv">
+                <label for="message">Message</label><br>
+                <textarea name="message" id="message" cols="30" rows="10"
+                    placeholder="Write your message here..." onblur="validateMessage()" required></textarea>
+                    <p id="errorMessageUser" hidden class="errorForm">El mensaje debe tener al menos 5 caracteres</p>
+        
+            </div>
+            <div class="buttonSubmit">
+                <button type="button" onclick="sendForm()" id="submitForm">Submit</button>
+                <p class="errorForm" id="errorSubmit" hidden>Por favor, llene todos los campos del formulario y en el formato correcto</p>
+            </div>
+        </form>
+
+        </main>   
+    <footer class="bg-footer">
+        <div class="footer-box1">
+        <img class="footer-img" src="/_Project/resources/logos/circle.svg" alt="">
+        <p>2972 Westheimer Rd. Santa Ana, Illinois 85486 </p>
+        </div>
+        <div class="contenedor-list">
+        <div class="footer-box2">
+            <ul>
+            <li><a href="#">Team</a></li>
+            <li><a href="#">Press</a></li>
+            </ul>
+        </div>
+        <div class="footer-box2">
+            <ul>
+                <li><a href="/_Project/index.html#services_ancla">Services</a></li>
+                <li><a href="/_Project/index.html#projects_ancla">Projects</a></li>
+            </ul>
+        </div>
+        <div class="footer-box2">
+            <ul>
+                <li><a href="#">About Us</a></li>
+                <li><a href="#">Privacy Policy</a></li>
+                </ul>
+        </div>
+        </div>
+    </footer>  
+    <script src="/_Project/js/contact.js"></script>
+</body>
+</html>
