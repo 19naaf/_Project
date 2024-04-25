@@ -198,7 +198,7 @@ body {
     height: 50vh;
     border-right: 7vw solid #f2f4fc;
     border-left: 7vw solid #f2f4fc;
-    background-image: url(/_Project/resources/testimonial-section/orbit.png);
+    background-image: url(./../resources/testimonial-section/orbit.png);
     background-size: contain;
     background-position: center center;
     position: relative;
@@ -417,6 +417,44 @@ height: 40px;
 
 
 @media (max-width: 950px){
+    .hero-box1 h1{
+        margin-top: 1rem;
+        margin-right: 1rem;
+        text-align: center;
+        font-size: 30px;
+    }
+    .hero-box1 h4{
+        margin-top: 1rem;
+        margin-right: 1rem;
+        text-align: justify;
+        font-size: 14px;
+    }
+    .hero-box1 button{
+        margin-top: 1rem;
+        margin-bottom: 1rem;
+    }
+    .hero-box1 a{
+        font-size: 10px;
+    }
+    .box1 img{
+        width: 50px;
+    }
+    .box2 ul{
+        margin: 0;
+    }
+    .box2 li{
+        font-size: 10px;
+        margin: 1px;
+    }
+    #miBoton{
+    font-size: 10px;
+    background-color: #072ac8;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 0px;
+    padding: 1px 1px;
+    }
     .header-img2{
         display: none;
     }
@@ -430,6 +468,9 @@ height: 40px;
         height: auto;
         flex-direction: column;
     }
+    .hero-box1{
+        width: auto;
+    }
 
     .client-section{
         width: 100%;
@@ -439,4 +480,120 @@ height: 40px;
     justify-content: center;
     flex-wrap: wrap;
     }
+.hero-box2{
+    width: auto;
+}
+.projects-section{
+    position: static;
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.projects-box{
+    display: flex;
+    flex-direction: column;
+    width: 340px;
+    height: 410px;
+    margin: 2rem;
+}
+.testimonial-emoji1{
+    display: none;
+}
+.testimonial-emoji2{
+    display: none;
+}
+.testimonial-emoji3{
+    display: none;
+}
+.testimonial-emoji4{
+    display: none;
+}
+.testimonial-section h2{
+        font-size: 20px;
+}
+.testimonial-section h4{
+    font-size: 10px;
+    position: absolute;
+    margin-right: 1rem;
+}
+.testimonial-girl{
+    position: absolute;
+    margin-top: 2rem;
+}
+.bg-testimonial{
+    margin-bottom: -4rem;
+}
+.separador{
+    margin-top: 6rem;
+    margin-bottom: .5rem;
+    margin-left: 10%;
+}
+.services-section{
+    position: static;
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+.projects-box2{
+    width: 340px;
+    height: 200px;
+}
+
+.cta-section h3{
+    font-size: 20px;
+}
+.cta-section h4{
+    font-size: 15px;
+}
+.bg-cta{
+    margin-top: 2rem;
+    width: 100%;
+    height: 30vh;
+    border-right: 7vw solid #f2f4fc;
+    border-left: 7vw solid #f2f4fc;
+    background-color: #ffc600;
+}
+.subscribe input{
+    width: 200px;
+    height: 30px;
+}
+.subscribe button{
+        width: 60px;
+        height: 25px;
+}
+.footer-box1 img{
+    width: 50px;
+}
+.bg-footer .footer-box1 p{
+    font-size: 10px;
+}
+.bg-footer{
+    justify-content: normal;
+}
+.bg-footer .footer-box2 ul li{
+    font-size: 10px;
+    margin-right: -.8rem;
+    margin-left: .5rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 }

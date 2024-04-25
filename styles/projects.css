@@ -247,52 +247,51 @@ body {
     font-size: 35px;
     margin-left: 6rem;
     margin-top: 10%;
-  }
-  
-  .subtitle {
+}
+
+.subtitle {
     display: flex;
     justify-content: space-between;
     margin-left: 6rem;
     margin-top: 1rem;
-  }
-  
-  .UI-design-title {
+}  
+.UI-design-title {
     color: #6b708d;
     font-size: 12px;
     margin: 0;
-  }
-  
-  .completed-title {
+}
+
+.completed-title {
     color: black;
     font-size: 10px;
     margin: 0;
     margin-right: 2rem;
-  }
-  
-  .completed-title-data {
+}
+
+.completed-title-data {
     color: #6b708d;
     font-size: 10px;
     margin: 0;
     margin-right: 40px;
-  }
-  
+}
+
   /* --- INFO PROJECT SECTION --- */
-  
-  .project-image-section {
+
+.project-image-section {
     width: 100%;
     margin-top: 4%;
     margin-bottom: 7%;
     text-align: center;
-  }
-  
-  .project-image {
+}
+
+.project-image {
     width: 84%;
     height: 65vh;
     object-fit: cover;
     filter: drop-shadow(5px 5px 20px #c414ca74);
-  }
-  
-  .project-description {
+}
+
+.project-description {
     color: #6b708d;
     margin-bottom: 7%;
     text-align: left;
