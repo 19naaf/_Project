@@ -63,72 +63,6 @@ body {
     color: white;
     text-decoration: none;
 }
-#miBoton2 {
-    background-color: transparent; 
-    color: #6b708d; 
-    border: none;
-}
-#miBoton2 a{
-    color: black;
-    text-decoration: none;
-}
-.hero-section{
-    margin-top: 8vh;
-    display: flex;
-    width: 100%;
-    height: 50vh;
-    
-}
-.hero-box1{
-    width: 50%;
-    margin-left: 10vw;
-    
-    
-}
-.hero-box2{
-
-    width: 50%;
-    text-align: center;
-    position: relative;
-}
-.hero-box2 .header-img1{
-    width: 320px;
-}
-.hero-box2 .header-img2{
-    width: 200px;
-    position: absolute;
-    top: 0;
-    left: 0;
-}
-.hero-box2 .header-img3{
-    width: 180px;
-    position: absolute;
-    top: 14rem;
-    left: 16rem;
-}
-.hero-box1 h1 {
-    
-    margin-top: 5rem;
-}
-.hero-box1 h4 {
-    color: #6b708d;
-    margin-top: 3rem;
-}
-.hero-box1 button{
-    margin-top: 3rem;
-    margin-right: 0.7rem;
-}
-.client-section{
-    width: 100%;
-    margin-top: 2rem;
-    filter: grayscale(100%);
-    display: flex;
-    justify-content: center;
-}
-.client-section img{
-    padding: 2rem;
-    width: 150px;
-}
 .separador{
     
     margin-top: 6rem;
@@ -183,40 +117,6 @@ body {
     margin-left: 1rem;
     text-decoration: none;
     color: #072ac8;
-}
-.testimonial-section{
-    width: 100%;
-    
-
-
-}
-.bg-testimonial{
-    margin-top: 5rem;
-    margin-bottom: 8rem;
-    background-color: #292e47;
-    width: 100%;
-    height: 50vh;
-    border-right: 7vw solid #f2f4fc;
-    border-left: 7vw solid #f2f4fc;
-    background-image: url(/_Project/resources/testimonial-section/orbit.png);
-    background-size: contain;
-    background-position: center center;
-    position: relative;
-    
-    
-}
-
-.services-section{
-
-    position: static;
-    display: flex;
-    width: 100%;
-    justify-content: center;
-
-}
-.services-section img{
-        width: 20%;
-        align-items: center;
 }
 .cta-section {
     display: flex;
@@ -306,69 +206,6 @@ body {
     width: 50%;
     display: flex;
 }
-.testimonial-emoji1{
-    width: 140px;
-    position: absolute;
-    top: 0;
-    left: 0rem;
-    margin-left: 5%;
-}
-.testimonial-emoji2{
-    width: 140px;
-    position: absolute;
-    top: 0rem;
-    left: 75%;
-}
-.h2-testimonial{
-    color: #f2f4fc;
-    text-align: center;
-    padding-top: 5rem;
-}
-.h4-testimonial{
-    color: #ffc600;
-    text-align: center;
-    margin-top: 3rem;
-    margin-left: 11rem;
-    margin-right: 11rem;
-
-}
-.testimonial-emoji3{
-    width: 140px;
-    position: absolute;
-    top: 60%;
-    left: 0rem;
-    margin-left: 5%;
-}
-.testimonial-girl{
-    width: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    padding: 2%;
-}
-.testimonial-img{
-    width: 60px;
-    height: 60px;
-    border-radius: 50%;
-    text-align: center;
-}
-.nombre{
-    color: #a2d6f9;
-
-}
-.booking{
-    color: #f2f4fc;
-}
-.testimonial-info{
-    text-align: left;
-}
-.testimonial-emoji4{
-
-        width: 140px;
-        position: absolute;
-        top: 60%;
-        left: 75%;
-}
 .projects-box2{
     display: flex;
     flex-direction: column;
@@ -403,40 +240,63 @@ body {
     text-decoration: none;
     color: #072ac8;
 }
-.services-section img{
+/* --- TITLE SECTION --- */
 
-width: 100%;
-align-items: center;
-background-color: #d1edff;
-border-radius: 50%;
-padding: 10px;
-margin: 10px;
-width: 40px;
-height: 40px;
-}
-
-
-@media (max-width: 950px){
-    .header-img2{
-        display: none;
-    }
-    .header-img3{
-        display: none;
-    }
-    .hero-section{
-        margin-top: 2vh;
-        display: flex;
-        width: 100%;
-        height: auto;
-        flex-direction: column;
-    }
-
-    .client-section{
-        width: 100%;
-    margin-top: 2rem;
-    filter: grayscale(100%);
+.title {
+    text-align: left;
+    font-size: 35px;
+    margin-left: 6rem;
+    margin-top: 10%;
+  }
+  
+  .subtitle {
     display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
-    }
+    justify-content: space-between;
+    margin-left: 6rem;
+    margin-top: 1rem;
+  }
+  
+  .UI-design-title {
+    color: #6b708d;
+    font-size: 12px;
+    margin: 0;
+  }
+  
+  .completed-title {
+    color: black;
+    font-size: 10px;
+    margin: 0;
+    margin-right: 2rem;
+  }
+  
+  .completed-title-data {
+    color: #6b708d;
+    font-size: 10px;
+    margin: 0;
+    margin-right: 40px;
+  }
+  
+  /* --- INFO PROJECT SECTION --- */
+  
+  .project-image-section {
+    width: 100%;
+    margin-top: 4%;
+    margin-bottom: 7%;
+    text-align: center;
+  }
+  
+  .project-image {
+    width: 84%;
+    height: 65vh;
+    object-fit: cover;
+    filter: drop-shadow(5px 5px 20px #c414ca74);
+  }
+  
+  .project-description {
+    color: #6b708d;
+    margin-bottom: 7%;
+    text-align: left;
+    margin-left: 6rem;
+    margin-right: 6rem;
+    font-size: 18px;
 }

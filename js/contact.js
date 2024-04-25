@@ -1,5 +1,5 @@
-var okName = false;                                         //inicio las variables en false para despues comprobar si los campos estan correctos y pasarlos a true
-var okEmail = false;
+var okName = false;                                         //inicio las variables en false para posteriormente dcomprobar 
+var okEmail = false;                                        //si los campos estan correctos y pasarlos a true
 var okPhone = false;
 var okMessage = false;
 
