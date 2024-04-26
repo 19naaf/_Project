@@ -7,12 +7,12 @@ function validateName() {
     let nameUser = document.getElementById("name");          //accedo al campo name del formulario  
     let patron_de_letras = /^[a-zA-Z]+$/;                     //Compruebo que solo sean letras
     if (!patron_de_letras.test(nameUser.value)) {            //si el campo name esta vacio o no son letras lanzo la siguiente logica
-    document.getElementById("errorName").hidden = false;    //camo la propiedad hidden es false, se muestra el cambio de estilo q se muestra acontinuacion
+    document.getElementById("errorName").hidden = false;    //camo la propiedad hidden es false, se muestra el cambio de estilo q se muestra 
     nameUser.style.borderColor = "blue";                     //cambia el estilo para colocar un borde rojo si el campo name esta vacio
     nameUser.style.borderStyle = "dashed";
     okName = false;                                         //la variable ok name sigue sienfo falsa como cuando se inicio
     } else {                                                //de lo contrario
-    document.getElementById("errorName").hidden = true;     // la propiedad hidden es true asi que quedan escondidas la propiedas de estilo de validacion del campo
+    document.getElementById("errorName").hidden = true;     // la propiedad hidden es true asi que quedan escondidas la propiedas de estilo d validacion 
     nameUser.style.borderStyle = "none";
     okName = nameUser.value;                                //como el nombre introducido paso la validacion recojo el valor en la variable OKname
     }
@@ -24,7 +24,6 @@ function validateEmail() {
     let patron_email = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
     if (!patron_email.test(emailUser.value)) {
     document.getElementById("errorEmail").hidden = false;
-    document.getElementById("errorFormatEmail").hidden = true;
     emailUser.style.borderColor = "blue";
     emailUser.style.borderStyle = "dashed";
     okEmail = false;
@@ -78,9 +77,6 @@ function sendForm() {
     if (okName && okEmail && okPhone && okMessage) {
     incompleteForm.hidden = true;
     console.log(okName, okEmail, okPhone, okMessage);
-    setTimeout(function() {
-        location.reload();
-    }, 5000);                                                  //recarga la pagina en 5 segundos
     } else {
     incompleteForm.hidden = false;
     incompleteForm.style.borderColor = "blue";

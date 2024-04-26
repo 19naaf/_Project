@@ -1,152 +1,163 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Proyecto</title>
-    <link rel="stylesheet" href="./styles/styles.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Project Mid-term Home</title>
+  <link rel="stylesheet" href="./styles/styles.css">
+  <link href="https://fonts.googleapis.com/css?family=Roboto:400,700&display=swap" rel="stylesheet" />
 </head>
+
 <body>
-    <nav class="barra-nav">
-        <div class="box1">
-            <img src="./resources/logos/circle.svg" alt="logo-barra">
+  <nav class="barra-nav">
+    <div class="box1">
+      <img src="./resources/logos/circle.svg" alt="logo-barra">
+    </div>
+    <div class="box2">
+      <ul>
+        </a>
+        <li><a href="./index.html">Home</a></li>
+        <li><a href="./projects.html">Projects</a></li>
+        <li><a href="#services_ancla">Services</a></li>
+      </ul>
+    </div>
+    <div class="box3">
+      <button id="miBoton" class="botonPersonalizado"><a href="./contact.html">Contact Us</a></button>
+    </div>
+  </nav>
+  <header class="hero-section">
+    <div class="hero-box1">
+      <h1>Empower Your Business With Stunning Design!</h1>
+      <h4>Circle is a digital design and development studio. We design and develop astonishing websites and mobile apps.
+      </h4>
+      <button id="miBoton"><a href="./contact.html">Get in Touch</a></button>
+      <button id="miBoton2"><a href="#projects_ancla">See our work!</a></button>
+    </div>
+    <div class="hero-box2">
+      <img class="header-img1" src="./resources/hero-section/hero-image.png" alt="guy-image">
+      <img class="header-img2" src="./resources/hero-section/card-1.png" alt="target-image">
+      <img class="header-img3" src="./resources/hero-section/card-2.png" alt="pulgarUpImg">
+    </div>
+  </header>
+  <section class="client-section">
+    <img src="./resources/logos/airbnb-logo.svg" alt="airbnb_logo">
+    <img src="./resources/logos/google-logo.svg" alt="google_logo">
+    <img src="./resources/logos/microsoft-logo.svg" alt="microsoft_logo">
+    <img src="./resources/logos/fedex-logo.svg" alt="fedex_logo">
+    <img src="./resources/logos/amazon-logo.svg" alt="amazon_logo">
+  </section>
+  <section id="projects_ancla" class="separador">
+    <h2>Recent Projects</h2>
+  </section>
+  <section class="projects-section">
+    <div class="projects-box">
+      <img src="./resources/projects-section/1.jpg" alt="imagen_project1">
+      <h3>Simplify</h3>
+      <h4>UI Design & App Development</h4>
+      <a href="./projects.html">Learn more</a>
+    </div>
+    <div class="projects-box">
+      <img src="./resources/projects-section/2.jpg" alt="imagen_project2">
+      <h3>Dashcoin</h3>
+      <h4>Web Development</h4>
+      <a href="./projects.html">Learn more</a>
+    </div>
+    <div class="projects-box">
+      <img src="./resources/projects-section/3.jpg" alt="imagen_project3">
+      <h3>Vectorify</h3>
+      <h4>User Experience Design</h4>
+      <a href="./projects.html">Learn more</a>
+    </div>
+  </section>
+  <section class="testimonial-section">
+    <div class="bg-testimonial">
+      <div>
+        <img class="testimonial-emoji1" src="./resources/testimonial-section/memoji-1.png" alt="memoji1">
+      </div>
+      <div class="h2-testimonial">
+        <h2>Hear What Our Clients Have to Say</h2>
+      </div>
+      <div class="h4-testimonial">
+        <h4>“Circle helped us through every stage of our startup. We really enjoyed working with you.”</h4>
+      </div>
+      <div>
+        <img class="testimonial-emoji2" src="./resources/testimonial-section/memoji-2.png" alt="memoji2">
+      </div>
+      <div>
+        <img class="testimonial-emoji3" src="./resources/testimonial-section/memoji-3.png" alt="memoji3">
+      </div>
+      <div class="testimonial-girl">
+        <img class="testimonial-img" src="./resources/testimonial-section/profile.png" alt="girl_picture">
+        <div class="testimonial-info">
+          <p class="nombre">Kristin Watson</p>
+          <p class="booking">Booking.com</p>
         </div>
-        <div class="box2">
+      </div>
+      <div>
+        <img class="testimonial-emoji4" src="./resources/testimonial-section/memoji-4.png" alt="memoji4">
+      </div>
+  </section>
+  <section id="services_ancla" class="separador">
+    <h2>Our Services</h2>
+  </section>
+  <section class="services-section">
+    <div class="projects-box2">
+      <img src="./resources/services-section/icons/1.svg" alt="icono_pluma">
+      <h3>User Interface Design</h3>
+      <h4>Circle provides you with a stunning user interface design that is accessible to everyone.</h4>
+      <a href="#">Learn more</a>
+    </div>
+    <div class="projects-box2">
+      <img src="./resources/services-section/icons/2.svg" alt="icono_click">
+      <h3>User Experience Design</h3>
+      <h4>Circle always focuses on delivering the best user experience to your customers.</h4>
+      <a href="#">Learn more</a>
+    </div>
+    <div class="projects-box2">
+      <img src="./resources/services-section/icons/3.svg" alt="icono_web">
+      <h3>Application Development</h3>
+      <h4>We develop high-quality mobile and web applications using the latest technology stack.</h4>
+      <a href="#">Learn more</a>
+    </div>
+  </section>
+  <section class="cta-section bg-cta">
+    <h3>Do you have any questions?</h3>
+    <h4>Let us help you!</h4>
+    <div class="subscribe">
+      <div class="input-container">
+        <input type="email" placeholder="Enter your email" class="input" />
+        <img src="./resources/newsletter/icon/mail.svg" alt="icono_mail" class="input-image" />
+      </div>
+      <button id="miBoton""><a href=" ./contact.html">Subscribe</a></button>
+    </div>
+  </section>
+  <footer class="bg-footer">
+    <div class="footer-box1">
+      <img class="footer-img" src="./resources/logos/circle.svg" alt="logo_circle">
+      <p>2972 Westheimer Rd. Santa Ana, Illinois 85486 </p>
+    </div>
+    <div class="contenedor-list">
+      <div class="footer-box2">
         <ul>
-          </a>
-          <li><a href="./index.html">Home</a></li>
-          <li><a href="./projects.html">Projects</a></li>
-          <li><a href="#services_ancla">Services</a></li>
-        </ul>
-        </div>
-        <div class="box3">
-            <button id="miBoton" class="botonPersonalizado"><a href="./contact.html">Contact Us</a></button>
-        </div>
-      </nav>
-      <header class="hero-section">
-        <div class="hero-box1">
-            <h1>Empower Your Business With Stunning Design!</h1>
-            <h4>Circle is a digital design and development studio. We design and develop astonishing websites and mobile apps.</h4>
-            <button id="miBoton"><a href="./contact.html">Get in Touch</a></button>
-            <button id="miBoton2"><a href="#projects_ancla">See our work!</a></button>
-        </div>
-        <div class="hero-box2">
-            <img class="header-img1" src="./resources/hero-section/hero-image.png" alt="">
-            <img class="header-img2" src="./resources/hero-section/card-1.png" alt="">
-            <img class="header-img3" src="./resources/hero-section/card-2.png" alt="">
-        </div>
-      </header>
-      <section class="client-section">
-        <img src="./resources/logos/airbnb-logo.svg" alt="">
-        <img src="./resources/logos/google-logo.svg" alt="">
-        <img src="./resources/logos/microsoft-logo.svg" alt="">
-        <img src="./resources/logos/fedex-logo.svg" alt="">
-        <img src="./resources/logos/amazon-logo.svg" alt="">
-      </section>
-      <section id="projects_ancla" class="separador"><h2>Recent Projects</h2>
-      </section>
-      <section class="projects-section">
-        <div class="projects-box">
-            <img src="./resources/projects-section/1.jpg" alt="">
-            <h3>Simplify</h3>
-            <h4>UI Design & App Development</h4>
-            <a href="./projects.html">Learn more</a>
-            </div>
-        <div class="projects-box">
-            <img src="./resources/projects-section/2.jpg" alt="">
-            <h3>Dashcoin</h3>
-            <h4>Web Development</h4>
-            <a href="./projects.html">Learn more</a>
-        </div>
-        <div class="projects-box">
-            <img src="./resources/projects-section/3.jpg" alt="">
-            <h3>Vectorify</h3>
-            <h4>User Experience Design</h4>
-            <a href="./projects.html">Learn more</a>
-            </div>
-      </section>
-      <section class="testimonial-section">
-        <div class="bg-testimonial">
-          <div>
-            <img class="testimonial-emoji1" src="./resources/testimonial-section/memoji-1.png" alt="">
-          </div>
-          <div class="h2-testimonial"><h2>Hear What Our Clients Have to Say</h2></div>
-          <div class="h4-testimonial"><h4>“Circle helped us through every stage of our startup. We really enjoyed working with you.”</h4></div>
-          <div>
-            <img class="testimonial-emoji2" src="./resources/testimonial-section/memoji-2.png" alt="">
-          </div>
-          <div>
-            <img class="testimonial-emoji3" src="./resources/testimonial-section/memoji-3.png" alt="">
-          </div>
-          <div class="testimonial-girl">
-            <img class="testimonial-img" src="./resources/testimonial-section/profile.png" alt="">
-            <div class="testimonial-info">
-            <p class="nombre">Kristin Watson</p>
-            <p class="booking">Booking.com</p>
-          </div>
-          </div>
-          <div>
-          <img class="testimonial-emoji4" src="./resources/testimonial-section/memoji-4.png" alt="">
-        </div>
-      </section>
-      <section id="services_ancla" class="separador"><h2>Our Services</h2></section>
-      <section class="services-section">
-        <div class="projects-box2">
-            <img src="./resources/services-section/icons/1.svg" alt="">
-            <h3>User Interface Design</h3>
-            <h4>Circle provides you with a stunning user interface design that is accessible to everyone.</h4>
-            <a href="#">Learn more</a>
-            </div>
-        <div class="projects-box2">
-            <img src="./resources/services-section/icons/2.svg" alt="">
-            <h3>User Experience Design</h3>
-            <h4>Circle always focuses on delivering the best user experience to your customers.</h4>
-            <a href="#">Learn more</a>
-        </div>
-        <div class="projects-box2">
-            <img src="./resources/services-section/icons/3.svg" alt="">
-            <h3>Application Development</h3>
-            <h4>We develop high-quality mobile and web applications using the latest technology stack.</h4>
-            <a href="#">Learn more</a>
-            </div>
-      </section>
-      <section class="cta-section bg-cta">
-        <h3>Do you have any questions?</h3>
-        <h4>Let us help you!</h4>
-        <div class="subscribe">
-          <div class="input-container">
-            <input type="email" placeholder="Enter your email" class="input" />
-            <img src="./resources/newsletter/icon/mail.svg" alt="" class="input-image"/>
-        </div>
-        <button id="miBoton""><a href="./contact.html">Subscribe</a></button>
-        </div>
-    </section>
-    <footer class="bg-footer">
-        <div class="footer-box1">
-          <img class="footer-img" src="./resources/logos/circle.svg" alt="">
-          <p>2972 Westheimer Rd. Santa Ana, Illinois 85486 </p>
-        </div>
-        <div class="contenedor-list">
-        <div class="footer-box2">
-          <ul>
           <li><a href="#">Team</a></li>
           <li><a href="#">Press</a></li>
-          </ul>
-        </div>
-        <div class="footer-box2">
-          <ul>
+        </ul>
+      </div>
+      <div class="footer-box2">
+        <ul>
           <li><a href="#services_ancla">Services</a></li>
           <li><a href="#projects_ancla">Projects</a></li>
-          </ul>
-        </div>
-        <div class="footer-box2">
-          <ul>
+        </ul>
+      </div>
+      <div class="footer-box2">
+        <ul>
           <li><a href="#">About Us</a></li>
           <li><a href="#">Privacy Policy</a></li>
-          </ul>
-        </div>
-        </div>
-    </footer>  
+        </ul>
+      </div>
+    </div>
+  </footer>
 </body>
-</html>
 
+</html>
